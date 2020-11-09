@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>KASIR TOGAMEDIA</title>
+    <title>BUKU PIYAN</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -34,7 +34,7 @@
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="brand">
-                <h3>TOGAMEDIA</h3>
+                <h3>BUKU PIYAN</h3>
             </div>
             <div class="container-fluid">
                 <div class="navbar-btn">
@@ -64,8 +64,8 @@
                 <nav>
                     <ul class="nav">
                         <?php
-						if ($this->session->userdata('level') == 'admin') {
-						?>
+                        if ($this->session->userdata('level') == 'admin') {
+                        ?>
                         <li><a href="<?php echo base_url('index.php/dashboard'); ?>" class=""><i
                                     class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
                         <li><a href="<?php echo base_url('index.php/kategori'); ?>" class=""><i
@@ -79,15 +79,15 @@
                         <li><a href="<?php echo base_url('index.php/transaksi/riwayat'); ?>" class=""><i
                                     class="lnr lnr-cog"></i> <span>Riwayat Transaksi</span></a></li>
                         <?php
-						} else {
-						?>
+                        } else {
+                        ?>
                         <li><a href="<?php echo base_url('index.php/transaksi'); ?>" class=""><i
                                     class="lnr lnr-cog"></i> <span>Transaksi</span></a></li>
                         <li><a href="<?php echo base_url('index.php/transaksi/riwayat'); ?>" class=""><i
                                     class="lnr lnr-cog"></i> <span>Riwayat Transaksi</span></a></li>
                         <?php
-						}
-						?>
+                        }
+                        ?>
                     </ul>
                 </nav>
             </div>
@@ -97,8 +97,8 @@
         <div class="main">
             <!-- MAIN CONTENT -->
             <?php
-			$this->load->view($main_view);
-			?>
+            $this->load->view($main_view);
+            ?>
             <!-- END MAIN CONTENT -->
         </div>
         <!-- END MAIN -->

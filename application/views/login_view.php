@@ -30,7 +30,7 @@
                     <div class="left">
                         <div class="content">
                             <div class="header">
-                                <h2 class="logo text-center">TOGAMEDIA</h2>
+                                <h2 class="logo text-center">BUKU PIYAN</h2>
                                 <p class="lead">Login to your account</p>
                             </div>
 
@@ -67,7 +67,7 @@
                     <div class="right">
                         <div class="overlay"></div>
                         <div class="content text">
-                            <h1 class="heading">KASIR TOKO BUKU TOGAMEDIA</h1>
+                            <h1 class="heading">KASIR TOKO BUKU PIYAN</h1>
                             <p>by Piyan</p>
                         </div>
                     </div>
