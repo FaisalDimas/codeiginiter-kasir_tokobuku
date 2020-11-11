@@ -1,0 +1,4 @@
+Demo = kasir.epizy.com
+terdapat dua role admin dan kasir untuk login
+admin = username admin password admin
+kasir = username kasir password kasir
